@@ -1,0 +1,4 @@
+baseURL = 'https://jawnahawkin.com/'
+languageCode = 'en-us'
+title = 'Jawnahawkin Fantasy League'
+theme = 'PaperMod'
