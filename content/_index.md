@@ -5,4 +5,5 @@ draft: false
 ---
 
 Welcome to the center of all information for the Jawnahawkin Fantasy League.
-This is a work in progress but will continously be added to prior to the beggining of the 25/26 season.
+
+This is a work in progress but will be continously updated with new features prior to the the 25/26 season.
