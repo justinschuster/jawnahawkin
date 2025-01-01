@@ -2,3 +2,57 @@ baseURL = 'https://jawnahawkin.com/'
 languageCode = 'en-us'
 title = 'Jawnahawkin Fantasy League'
 theme = 'PaperMod'
+
+[params]
+description = 'The official website of the Jawnahawkin Fantasy League'
+auther = 'Jawnahawkin Fantasy League'
+
+# Menu Configuration
+[menu]
+[[menu.main]]
+name = 'Home'
+url = '/'
+weight = 1
+[[menu.main]]
+name = 'Rules'
+url = '/rules/'
+weight = 2
+
+# Privacy Configuration
+[privacy]
+[privacy.disqus]
+disable = true
+[privacy.googleAnalytics]
+disable = true
+[privacy.instagram]
+disable = true
+[privacy.twitter]
+disable = true
+[privacy.vimeo]
+disable = true
+[privacy.youtube]
+disable = true
+
+# Markdown Configuration
+[markup]
+[markup.highlight]
+style = 'monokai'
+lineNumbers = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true # Allows HTML in markdown files
+
+# Output Configuration
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML"]
+taxonomy = ["HTML"]
+term = ["HTML"]
+
+# Disable unnecessary taxonomies
+disableKinds = ["taxonomy", "term"]
+
+# Build settings
+buildDrafts = false
+buildFuture = false
+buildExpired = false
